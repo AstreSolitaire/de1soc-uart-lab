@@ -1,0 +1,35 @@
+# Quartus II 编译产物
+db/
+incremental_db/
+hc_output/
+greybox_tmp/
+output_files/
+*.rpt
+*.sof
+*.pof
+*.done
+*.smsg
+*.summary
+*.pin
+*.jdi
+*.qws
+*.qpf.bak
+*.stp
+*.eqn
+*.vqm
+*.sld
+*.tcl.bak
+c5_pin_model_dump.txt
+transcript
+
+# ModelSim 仿真产物
+work/
+work_*/
+vsim.wlf
+*.vstf
+transcript
+sim*.txt
+
+# Python
+__pycache__/
+*.pyc
